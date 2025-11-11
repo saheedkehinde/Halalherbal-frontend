@@ -1,14 +1,14 @@
 [build]
-  
   command = "npm run build"
   publish = "client/dist"
 
 [build.environment]
   NODE_VERSION = "18"
 
-[build.ignore]
-  # Ignore backend folders
-  paths = ["server/*", "drizzle/*"]
+# Optional ignore command
+# This always builds. Replace with a real shell command if you want conditional builds.
+[build]
+  ignore = "echo 'always build'"
 
 [[redirects]]
   from = "/*"
