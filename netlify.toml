@@ -1,0 +1,16 @@
+[build]
+  
+  command = "npm run build"
+  publish = "client/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[build.ignore]
+  # Ignore backend folders
+  paths = ["server/*", "drizzle/*"]
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
