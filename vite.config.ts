@@ -10,4 +10,8 @@ export default defineConfig({
       "@shared": path.resolve(__dirname, "../shared"),
     },
   },
+  build: {
+    outDir: "dist", // ✅ ensures dist stays inside the client folder
+    emptyOutDir: true, // optional: cleans old files before building
+  },
 });
