@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Leaf, CheckCircle, Package } from 'lucide-react';
 import { Carousel } from '@/components/Carousel';
 import { Button } from '@/components/ui/button';
@@ -16,7 +16,13 @@ interface ContactFormProps {
 }
 
 export default function Home() {
+  const [showSplash, setShowSplash] = useState(true);
   const [showContactForm, setShowContactForm] = useState<boolean>(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowSplash(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const testimonialImages: TestimonialImage[] = [
     { id: '1', image: '/testimonials/IMG-20251027-WA0181.jpg', alt: 'Testimonial 1' },
@@ -46,6 +52,20 @@ export default function Home() {
       console.error('Error opening WhatsApp:', error);
     }
   };
+
+  if (showSplash) {
+    return (
+      <div className="flex min-h-screen w-full items-center justify-center bg-background text-foreground">
+        <div className="flex flex-col items-center gap-6 px-6 text-center">
+          <img src="/halallogo.png" alt="Halal Herbal Store logo" className="h-24 w-auto sm:h-32" />
+          <h1 className="text-3xl font-bold tracking-widest text-accent sm:text-4xl md:text-5xl">HALALHERBAL STORE</h1>
+          <p className="text-lg font-semibold text-muted-foreground sm:text-2xl md:text-2xl">
+            🌿 Have You Been Completely Freed from Ulcer?? , <br></br> Then You Have Visit The Right Platform.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="w-full min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -240,6 +260,7 @@ They're generally known as contrary solutions.
 These are solutions that only worked for some people and not for others.
 
           </p>
+         
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="w-full flex justify-center">
@@ -368,7 +389,16 @@ These are solutions that only worked for some people and not for others.
 
 <br></br>
             <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">You've been through the wringer trying to heal your ulcer..!!😒.</p>
-
+          <div className="mb-12">
+          <Link to="/product">
+            <Button
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            >
+              🛒 I Want To Be Completely Free From Ulcer →
+            </Button>
+          </Link>
+          </div>
 You've tried every recommended medication, hoping each would be the miracle cure.
 
 But time and again, they fall short.
@@ -487,6 +517,16 @@ Not something that only relieves the symptoms for a while before running out of 
 <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">But the true cure that cut through the list of contrary solutions.
 
 No fluff promises. No exaggerations that's dressed in emotions.</p>
+<div className="mb-12">
+          <Link to="/product">
+            <Button
+              size="lg"
+              className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+            >
+              🛒 My Time Is Up To Be Completely Free From Ulcer →
+            </Button>
+          </Link>
+          </div>
 
 Just something that goes all in when other contrary solutions end up looking for escape route (if ever they made it out)
 
