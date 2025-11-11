@@ -364,9 +364,148 @@ These are solutions that only worked for some people and not for others.
            <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">
             Over 80 Nigerians have reclaimed their health and freedom from ulcer using our Ulcer Cure Powder. Here are some highlights from their journeys:
           </p>
-           <p className="text-center text-lg md:text-md font-bold text-muted-foreground mb-12">
-            
+          <p className="text-md md:text-md text-center font-semibold  mb-10 text-accent">
 
+<br></br>
+            <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">You've been through the wringer trying to heal your ulcer..!!😒.</p>
+
+You've tried every recommended medication, hoping each would be the miracle cure.
+
+But time and again, they fall short.
+
+Not only are they failing to deliver lasting relief,
+
+They are also leaving back scars, which according to study, turn out to be new health issues you're left to face again.
+
+
+
+You wouldn't know at first, thinking it's just a normal side effect,
+
+Or that insignificant pain that would only show for a while and go,
+
+Then you would boldly come out to tell people about your miraculous escape,
+
+But no, it turns out you have to wait for more weeks.
+
+More weeks before people can truly believe your claims.
+
+More weeks before people can truly congratulate you.
+<br></br>
+<br></br>
+
+More weeks before victims like you would come to you, asking about the one thing you used that took the ulcer away completely.
+
+To be frank, those extra weeks hurt and bruise your mind, even though you believe that's not the right time to give up. 
+
+You know it may take time.
+
+You know it's a normal thing to come across delay, but total denial? That shouldn't be your portion.
+
+At least you've heard stories of victims like you who now walk around like they never had ulcers before.
+At least you've seen it here online, those who come to share their testimonies.
+
+So, your own case shouldn't be a matter of destiny, which is why you keep to those medications.
+
+You make sure to adhere, just as they say you'd continue.
+
+You even make sure to use them religiously.
+
+And the moment you noticed they're not truly working,
+
+You quickly seek and try out new recommendations, 
+
+Because you already know the true cure is never found in giving up.
+
+It's never found in folding arms or leaving it to mere luck.
+
+But in moving on to try more medication.
+
+At least you believe a day is coming where you'll be on the other side, with people watching intently as you take them through your transformation.
+
+Plus,
+<br></br><br></br>
+ <p className="text-center text-2xl md:text-2xl font-bold text-muted-foreground mb-12">Have You Been Waiting For The Day You Would Finally Smile Without Any Sign of Ulcer Pain..!!😊.</p>
+<p className="text-lg md:text-xl text-left font-semibold mb-8 text-accent">
+The day you would finally smile without any sign of ulcer pain.
+The day you would eat your favourite foods without any fear<br></br>
+The day you would sleep through the night without waking up in pain<br></br>
+The day you would wake up in the morning, full of energy and ready to take on the world<br></br>
+The day you would face stressful situations without breaking into cold sweat or palpitations<br></br>
+The day you would go out with friends and family without that nagging discomfort<br></br>
+The day you would go about your daily activities without that nagging discomfort<br></br>
+The day you would embrace life fully, free from ulcer's hold<br></br>
+The day you no longer feel scared to eat those forbidden foods<br></br>
+The day naysayers would stare so keen and wish they never write you off<br></br>
+The day you would go to bed at night, free from any ulcer attack till day break<br></br>
+</p>
+
+But… just that there's always this… uhm, always this but.
+
+You see, life can be brutal at times when it comes to finding a breakthrough to your ulcer.
+
+And it doesn't care if you've been diagnosed by a first class doctor.
+It doesn't care if you've spent your whole life savings.
+It doesn't care if you have to stay away from foods others are free to eat as they want (sounds like a wicked judgement).
+
+And it doesn't care about the unending pains you silently fight day and night. 
+
+It only cares when you start to do away with those overlooked threats, those medications that do not work for all (a.k.a contrary solutions).
+
+And give your almost dying soul the ideal thing it's screaming for,
+
+So it can recover, combat and win the battle completely against ulcer.
+
+
+<br></br><br></br>
+Look, contrary solutions do not only come and end up being defeated by your ulcer…
+
+But also amplify the pains, complicate the wounds and expose you to a risk of new health issues (over time).
+
+
+
+And what this does over time is make you pause to question your decision.
+
+The pharma drugs you were told to buy because it's for h.pylori
+The fermented pawpaw they confirmed to work like magic.
+The unripe plantain they keep saying would take the pain away forever.
+The cabbage juice they already framed as the messiah.
+
+As in, you start to wonder how you've taste from a lot of these medications in a short period of time.
+
+When in reality, you only surrender your soul out of desperation (even though they hardly work to the root) 
+
+To be honest, the warning signs keep on coming to you, blinking the threat that comes with every contrary solutions you keep adding.
+
+Screaming the extent of damage they'd caused to your body system.
+
+And that all you need is the ideal solution that works deep to the root.
+
+Not something that only worked on the surface then runs back whenever it smells the ulcer.
+Not something that's so scared to reach the root
+Not something that only relieves the symptoms for a while before running out of energy.
+<br></br><br></br>
+<p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">But the true cure that cut through the list of contrary solutions.
+
+No fluff promises. No exaggerations that's dressed in emotions.</p>
+
+Just something that goes all in when other contrary solutions end up looking for escape route (if ever they made it out)
+
+Look, have you been yearning so much for the day you would come out from bed, full of energy?
+
+The day you would do heavy work without your eyes becoming blurry or full of drowsiness
+The day you're exposed to stress and would still smile because you know any attack like that is now a thing of the past
+The day you start to spend on things other than another medication on ulcer
+The day your family would look at you with eyes that no more carry that pitiful look
+
+This is exactly what this little known thing can do for you.
+
+The ulcer cure powder that's worked for over 80 people, combating the ulcer straight from the root.
+
+
+
+But not just for a day, but for months, just as it works completely for people like you (over 80 different of them and still counting).
+
+Look at what Alabi (a victim of over 1 year ulcer and acid reflux) has to say;
 
           </p>
 
