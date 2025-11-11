@@ -149,7 +149,7 @@ export default function Home() {
            <p className="text-lg md:text-2xl text-center font-semibold mb-10 text-accent">
               You've taken every recommendation — pharma drugs, unripe plantain, cabbage juice, aloe vera, ginger, fermented pawpaw — yet, the pain always returns.
           </p>
-           <p className="text-md md:text-md text-center font-semibold  mb-10 text-accent">
+           <p className="text-md md:text-xl text-center font-semibold  mb-10 text-accent">
              
 For instance, anxiety could also come from being broke financially, it could come from having low sales, or just the way inflation is dealing with many of us.
 
@@ -364,7 +364,7 @@ These are solutions that only worked for some people and not for others.
            <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">
             Over 80 Nigerians have reclaimed their health and freedom from ulcer using our Ulcer Cure Powder. Here are some highlights from their journeys:
           </p>
-          <p className="text-md md:text-md text-center font-semibold  mb-10 text-accent">
+          <p className="text-md md:text-xl text-center font-semibold  mb-10 text-accent">
 
 <br></br>
             <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">You've been through the wringer trying to heal your ulcer..!!😒.</p>
