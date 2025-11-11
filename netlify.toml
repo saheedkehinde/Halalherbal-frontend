@@ -1,14 +1,11 @@
 [build]
   command = "npm run build"
   publish = "client/dist"
+  # Optional ignore command; must be a string
+  ignore = "echo 'always build'"
 
 [build.environment]
   NODE_VERSION = "18"
-
-# Optional ignore command
-# This always builds. Replace with a real shell command if you want conditional builds.
-[build]
-  ignore = "echo 'always build'"
 
 [[redirects]]
   from = "/*"
