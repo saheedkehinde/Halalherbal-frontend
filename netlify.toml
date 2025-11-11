@@ -1,8 +1,10 @@
 [build]
+  # Build command
   command = "npm run build"
+  # Folder to publish
   publish = "client/dist"
-  # Optional ignore command; must be a string
-  ignore = "echo 'always build'"
+  # Only build if relevant files change; safely ignores server/* and drizzle/*
+  ignore = "git diff --quiet HEAD^ HEAD -- 'server/' 'drizzle/' && echo 'Skipping build' || exit 1"
 
 [build.environment]
   NODE_VERSION = "18"
