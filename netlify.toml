@@ -1,9 +1,9 @@
 [build]
-  # Build command
-  command = "npm run build"
-  # Correct folder to publish
+  # Build command from root (Netlify runs from repo root)
+  command = "cd halalherbal_app/client && npm run build"
+  # Folder to publish
   publish = "halalherbal_app/client/dist"
-  # Only build if relevant files change; safely ignores server/* and drizzle/*
+  # Ignore builds if only backend folders changed
   ignore = "git diff --quiet HEAD^ HEAD -- 'halalherbal_app/server/' 'halalherbal_app/drizzle/' && echo 'Skipping build' || exit 1"
 
 [build.environment]
