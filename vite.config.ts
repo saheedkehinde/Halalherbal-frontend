@@ -7,11 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      "@shared": path.resolve(__dirname, "../shared"),
+      // removed "@shared" because we deleted that folder
     },
-  },
-  build: {
-    outDir: "dist", // ✅ ensures dist stays inside the client folder
-    emptyOutDir: true, // optional: cleans old files before building
   },
 });
