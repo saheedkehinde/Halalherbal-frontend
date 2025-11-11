@@ -53,6 +53,7 @@ export default function Home() {
       <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-10 left-10 text-6xl animate-pulse">🌿</div>
+          <div className="absolute top-10 right-10 text-6xl animate-pulse">🌿</div>
           <div className="absolute bottom-20 right-20 text-5xl animate-pulse delay-1000">🌿</div>
           <div className="absolute top-1/3 right-10 text-4xl animate-pulse delay-500">🌿</div>
         </div>
@@ -63,9 +64,14 @@ export default function Home() {
           </h1>
           <p className="text-lg md:text-2xl mb-8 text-muted-foreground leading-relaxed">
             Studies now reveal why these overlooked threats might be what's keeping you from that final freedom — and the little-known natural remedy over 80 people have used to reverse it from the root.
+            But there’s hope…
           </p>
-          <p className="text-xl md:text-2xl font-semibold mb-12 text-accent">
+        
+          <p className="text-xl md:text-2xl font-semibold mb-10 text-accent">
             Your relief story can begin today.
+          </p>
+          <p className="text-xl md:text-2xl font-semibold mb-8 text-accent">
+            And the hope is here...
           </p>
           <Link to="/product">
             <Button
@@ -140,23 +146,121 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-accent">
             The Problem: Why Ulcer Lingers So Long
           </h2>
+           <p className="text-lg md:text-2xl text-center font-semibold mb-10 text-accent">
+              You've taken every recommendation — pharma drugs, unripe plantain, cabbage juice, aloe vera, ginger, fermented pawpaw — yet, the pain always returns.
+          </p>
+           <p className="text-md md:text-md text-center font-semibold  mb-10 text-accent">
+             
+For instance, anxiety could also come from being broke financially, it could come from having low sales, or just the way inflation is dealing with many of us.
+
+Meaning? Any symptoms or pains should have been limited more to the area of your stomach or intestine,
+
+And not something that now seems like multiple health issues (like you see today).<br></br>
+<br></br>
+More like,
+
+It shouldn't have been something that now feels like a heart attack.
+It shouldn't have been something that now feels like your breath is about to be cut off.
+It shouldn't have been something that now raises your blood pressure so high like a debtor with no hope.
+
+Although, you should have known this earlier.
+<br></br>
+
+Especially if you could wind back to the first time you noticed you had ulcer,
+
+And you compare it with what has been going on now, with the sharp invisible pain in your chest, the regular headache, the fast heartbeat, the sudden weight loss, the cold arms and legs (even under hot weather), the unusual dizziness, the tightened throat as if it has been handcuffed…
+
+As in,
+
+That tiny pain of then has grown bigger, spreading and tormenting other parts of your body.
+
+It felt like you've been exploited, like a betrayal, like you've been let down, even after using a lot of so-called medications.
+<br></br><br></br>
+ <p className="text-lg md:text-2xl font-semibold mb-8 text-accent">
+So, you ask, "Why is this happening to me?. <br></br>
+So what could be wrong?.
+          </p>
+
+ <p className="text-lg md:text-2xl font-semibold mb-8 text-accent">
+The truth is, there are hidden threats you never paid attention to,<br></br><br></br>
+You're probably paying the price for overlooking these threats.
+          </p>
+
+<br></br>
+
+These are threats you failed to ignore just because you're in dire need of fast and complete solution.
+
+As a result, you keep testing out medication after medication like you have nothing to lose,
+
+But deep down, you could tell how your health has been exposed to more attacks that create panic, palpitations, anxiety and other risks you never had at first.
+
+<br></br><br></br>
+
+Look, this is expected when you only see those fickle signs of hope, those illusional recovery,
+
+Thinking they won't fade away as you move closer to the exit door of that hellish ulcer,
+Thinking those positive signs are finally here to stay, when in reality,
+
+They're only signs that the natural strength in you has been silently stolen away.
+Signs that your muscles are slowly being torn apart.
+Signs that your memory now loses count of things that are simple to remember.
+<br></br><br></br>
+
+Signs that show how every single attack has crumbled your immune system, 
+
+Making it become (more) weak, fragile, and vulnerable to even the smallest threat.
+
+You'd even try some supplements but won't be enough to replenish that prime energy, that in-built vitality God has given you. 
+
+Honestly, looking out for solutions is not entirely a bad thing.
+
+Because as the saying goes, “if you hide your problem, your problem will hide you”.
+<br></br><br></br>
+
+Meanwhile, it's heartbreaking when you look back at those recommendations you've tried in the past,
+
+And realise they have not only suck from your hard earned money, your prime energy or your time… 
+
+But also left you with more pains than they met you.
+
+You can name them. Pharma drugs, garlic, ginger and honey, honey and grinded avocado seed
+
+And even medications like aloe vera, carrots, fermented pawpaw, unripe plantain, while some will say cabbage juice.
+
+
+
+To be honest, it's not because they do not work at all.
+
+But because people only gave them out without mentioning the dark sides of these medications. 
+
+As in, you've not also been told that;
+
+They're generally known as contrary solutions.
+
+These are solutions that only worked for some people and not for others.
+
+          </p>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="w-full flex justify-center">
               <div className="w-full max-w-sm">
                 <img 
-                  src="/stomach-pain-relief.jpg" 
+                  src="./ulcer1.jpg" 
                   alt="Stomach Pain" 
                   className="w-full h-auto rounded-lg shadow-lg object-cover"
                 />
               </div>
             </div>
             <div className="w-full">
+             
               <p className="text-lg mb-6 leading-relaxed">
-                You've taken every recommendation — pharma drugs, unripe plantain, cabbage juice, aloe vera, ginger, fermented pawpaw — yet, the pain always returns.
+              
               </p>
               <p className="text-lg mb-8 leading-relaxed font-semibold text-accent">
                 Truth is, many of these are "contrary solutions." They only offer momentary relief while quietly slowing healing and leaving deeper scars inside.
+              </p>
+              <p className="text-lg mb-8 leading-relaxed font-semibold text-accent">
+                
               </p>
               <p className="text-lg mb-8 leading-relaxed">
                 That's why your ulcer keeps reappearing…
@@ -238,7 +342,7 @@ export default function Home() {
             <div className="w-full flex justify-center">
               <div className="w-full max-w-sm">
                 <img 
-                  src="/healing-wellness.jpg" 
+                  src="/ulcer2.jpg" 
                   alt="Healing and Wellness" 
                   className="w-full h-auto rounded-lg shadow-lg object-cover"
                 />
@@ -254,8 +358,16 @@ export default function Home() {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center text-accent">
             Testimonial Highlights
           </h2>
-          <p className="text-center text-lg text-muted-foreground mb-12">
+          <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">
             Real stories from real people who've been healed
+          </p>
+           <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">
+            Over 80 Nigerians have reclaimed their health and freedom from ulcer using our Ulcer Cure Powder. Here are some highlights from their journeys:
+          </p>
+           <p className="text-center text-lg md:text-md font-bold text-muted-foreground mb-12">
+            
+
+
           </p>
 
           <div className="w-full mb-12 h-96">
