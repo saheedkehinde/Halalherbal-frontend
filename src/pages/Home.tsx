@@ -58,10 +58,11 @@ export default function Home() {
       <div className="flex min-h-screen w-full items-center justify-center bg-background text-foreground">
         <div className="flex flex-col items-center gap-6 px-6 text-center">
           <img src="/halallogo.png" alt="Halal Herbal Store logo" className="h-24 w-auto sm:h-32" />
-          <h1 className="text-3xl font-bold tracking-widest text-accent sm:text-4xl md:text-5xl">HALALHERBAL STORE</h1>
+          <h1 className="text-4xl md:text-4xl font-bold tracking-widest text-accent sm:text-5xl">WECOME TO<br></br><br></br>HALALHERBAL STORE</h1>
           <p className="text-lg font-semibold text-muted-foreground sm:text-2xl md:text-2xl">
-            🌿 Have You Been Completely Freed from Ulcer?? , <br></br> Then You Have Visit The Right Platform.
+            🌿 Have You Been Completely Freed from Ulcer?? ,
           </p>
+          <h1 className="text-2xl md:text-2xl font-bold mt-4 mb-3 text-accent">Then This The Right <br></br>Platform To cure Your Ulcer Finnaly.</h1>
         </div>
       </div>
     );
