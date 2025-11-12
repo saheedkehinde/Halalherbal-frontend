@@ -112,28 +112,28 @@ export default function Home() {
               <h2 className="text-4xl md:text-5xl font-bold mb-8 text-accent">
                 About Halal Herbal
               </h2>
-              <p className="text-lg mb-6 leading-relaxed">
+              <p className="text-lg text-accent mb-6 leading-relaxed">
                 Halal Herbal & PMH is a trusted herbal wellness brand in Lagos, Nigeria — dedicated to producing science-backed natural remedies that heal from the root, not just the surface.
               </p>
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-lg text-accent mb-8 leading-relaxed">
                 We believe healing should restore your entire well-being — not leave you chained to pills and side effects.
               </p>
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-lg text-accent mb-8 leading-relaxed">
                 Our flagship formula, the Ulcer Cure Powder, is crafted from rare herbs and natural extracts that target ulcer pain, acid reflux, and inflammation directly — helping your body rebuild its strength and immunity naturally.
               </p>
 
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="text-accent flex-shrink-0" size={24} />
-                  <span className="text-lg font-semibold">100% Herbal</span>
+                  <span className="text-lg text-accent font-semibold">100% Herbal</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Leaf className="text-accent flex-shrink-0" size={24} />
-                  <span className="text-lg font-semibold">Root-Level Healing</span>
+                  <span className="text-lg text-accent font-semibold">Root-Level Healing</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Package className="text-accent flex-shrink-0" size={24} />
-                  <span className="text-lg font-semibold">Made in Nigeria</span>
+                  <span className="text-lg text-accent font-semibold">Made in Nigeria</span>
                 </div>
               </div>
 
@@ -169,7 +169,7 @@ export default function Home() {
            <p className="text-lg md:text-2xl text-center font-semibold mb-10 text-accent">
               You've taken every recommendation — pharma drugs, unripe plantain, cabbage juice, aloe vera, ginger, fermented pawpaw — yet, the pain always returns.
           </p>
-           <p className="text-md md:text-xl text-center font-semibold  mb-10 text-accent">
+           <p className=" text-lg md:text-xl text-center font-semibold  mb-10 text-accent">
              
 For instance, anxiety could also come from being broke financially, it could come from having low sales, or just the way inflation is dealing with many of us.
 
@@ -283,26 +283,26 @@ These are solutions that only worked for some people and not for others.
               <p className="text-lg mb-8 leading-relaxed font-semibold text-accent">
                 
               </p>
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-accent text-lg mb-8 font-bold leading-relaxed">
                 That's why your ulcer keeps reappearing…
               </p>
 
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
                   <span className="text-2xl flex-shrink-0">💢</span>
-                  <p className="text-lg">That sharp invisible pain in your chest.</p>
+                  <p className="text-lg text-accent">That sharp invisible pain in your chest.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-2xl flex-shrink-0">💓</span>
-                  <p className="text-lg">That fast heartbeat that mimics a panic attack.</p>
+                  <p className="text-lg text-accent">That fast heartbeat that mimics a panic attack.</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <span className="text-2xl flex-shrink-0">🌙</span>
-                  <p className="text-lg">Those sleepless nights where breathing feels like a struggle.</p>
+                  <p className="text-lg text-accent">Those sleepless nights where breathing feels like a struggle.</p>
                 </div>
               </div>
 
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-lg text-accent mb-8 leading-relaxed">
                 What's worse? You start to lose your natural strength. Your muscles weaken. Your memory slips. And those "side effects" become a new battle on their own.
               </p>
 
@@ -332,22 +332,22 @@ These are solutions that only worked for some people and not for others.
               <h2 className="text-4xl md:text-5xl font-bold mb-8 text-accent">
                 A Message of Hope
               </h2>
-              <p className="text-lg mb-6 leading-relaxed">
+              <p className="text-lg mb-6 text-accent leading-relaxed">
                 Think back to when your ulcer first began — how the pain was smaller, limited to your stomach.
                 Now, it spreads like wildfire: chest, throat, back, even your head.
               </p>
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-lg mb-8 text-accent leading-relaxed">
                 It's as if your body is crying out, "Enough!"
               </p>
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-lg mb-8 text-accent leading-relaxed">
                 And it's right. You weren't created to live on medication forever.
               </p>
 
-              <p className="text-lg mb-8 leading-relaxed font-semibold text-accent">
+              <p className="text-lg mb-8 text-accent leading-relaxed font-semibold text-accent">
                 This is where the Halal Herbal Ulcer Cure Powder changes the story.
               </p>
 
-              <p className="text-lg mb-8 leading-relaxed">
+              <p className="text-lg text-accent mb-8 leading-relaxed">
                 Unlike drugs that only silence symptoms, this blend penetrates deep, slicing through the real culprits (like H. pylori bacteria), healing the wound from the root, and protecting your stomach lining from further attack.
               </p>
 
@@ -356,7 +356,7 @@ These are solutions that only worked for some people and not for others.
                   size="lg"
                   className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
-                  🛒 Yes, I'm Ready to Be Completely Healed
+                  🛒I'm Ready to Be Completely Healed
                 </Button>
               </Link>
             </div>
@@ -385,17 +385,17 @@ These are solutions that only worked for some people and not for others.
            <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">
             Over 80 Nigerians have reclaimed their health and freedom from ulcer using our Ulcer Cure Powder. Here are some highlights from their journeys:
           </p>
-          <p className="text-md md:text-xl text-center font-semibold  mb-10 text-accent">
+          <p className=" text-lg md:text-xl text-center font-semibold  mb-10 text-accent">
 
 <br></br>
-            <p className="text-center text-2xl md:text-md font-bold text-muted-foreground mb-12">You've been through the wringer trying to heal your ulcer..!!😒.</p>
+            <p className="text-center  md:text-md font-bold text-muted-foreground mb-12">You've been through the wringer trying to heal your ulcer..!!😒.</p>
           <div className="mb-12">
           <Link to="/product">
             <Button
               size="lg"
               className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              🛒 I Want To Be Completely Free From Ulcer →
+              🛒 I am Here To Be Completely Free →
             </Button>
           </Link>
           </div>
@@ -454,7 +454,7 @@ At least you believe a day is coming where you'll be on the other side, with peo
 
 Plus,
 <br></br><br></br>
- <p className="text-center text-2xl md:text-2xl font-bold text-muted-foreground mb-12">Have You Been Waiting For The Day You Would Finally Smile Without Any Sign of Ulcer Pain..!!😊.</p>
+ <p className="text-center  md:text-2xl font-bold text-muted-foreground mb-12">Have You Been Waiting For The Day You Would Finally Smile Without Any Sign of Ulcer Pain..!!😊.</p>
 <p className="text-lg md:text-xl text-left font-semibold mb-8 text-accent">
 The day you would finally smile without any sign of ulcer pain.
 The day you would eat your favourite foods without any fear<br></br>
@@ -523,7 +523,7 @@ No fluff promises. No exaggerations that's dressed in emotions.</p>
               size="lg"
               className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              🛒 My Time Is Up To Be Completely Free From Ulcer →
+              🛒 I'm Ready To Be Completely Free →
             </Button>
           </Link>
           </div>
@@ -557,9 +557,9 @@ Look at what Alabi (a victim of over 1 year ulcer and acid reflux) has to say;
             <Link to="/product">
               <Button
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-accent hover:bg-accent/90 text-white px-1 pr-2 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
-                🔘 Join the 80+ Nigerians Who Are Now Ulcer-Free
+                🔘 Join the 80+ Nigerians Who Are Now Free
               </Button>
             </Link>
           </div>
@@ -587,7 +587,7 @@ Look at what Alabi (a victim of over 1 year ulcer and acid reflux) has to say;
               size="lg"
               className="bg-white hover:bg-white/90 text-accent px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              🛒 Yes, I'm Ready to Be Completely Healed
+              🛒 I'm Ready to Be Completely Healed
             </Button>
           </Link>
         </div>

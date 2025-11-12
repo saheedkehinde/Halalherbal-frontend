@@ -32,8 +32,8 @@ export default function Product() {
   const [showContactForm, setShowContactForm] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '08160093414';
-    const message = encodeURIComponent('Hello, I am interested in the Ulcer Cure Powder. Please tell me more about it.');
+    const phoneNumber = '07082209763';
+    const message = encodeURIComponent('Hello, Halal Herbal, Ive gone through your website and with what i have seen, I know Im now close to moving out COMPLETELY! from the list of those who are labeled as ulcer patients..  But before then, is there any other thing that you can give more explanation on regarding this  Ulcer Powder.');
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
@@ -316,10 +316,10 @@ export default function Product() {
 
           <Button
             size="lg"
-            className="bg-white hover:bg-white/90 text-accent px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-white hover:bg-accent/90 text-accent hover:text-white px-8 py-6 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             onClick={() => setShowContactForm(true)}
           >
-            🛒 Yes, I'm Ready to Be Completely Healed
+            🛒I'm Ready to Be Completely Healed
           </Button>
         </div>
       </section>
